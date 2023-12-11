@@ -9,15 +9,117 @@ body {
   line-height: 1.5;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
 p {
   margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #31343d;
+  background-color: #31343d;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar h1 {
+  background-color: #92ccce;
+  padding-left: 70px;
+  padding-right: 8px;
+  font-size: 48px;
+}
+
+.nav-links {
+  display: flex;
+}
+
+
+.links {
+  align-items: center;
+  margin-left: 10px;
+  padding-bottom: 5px;
+  color: #92ccce;
+  text-decoration: none;
+  border-bottom: 4px solid #92ccce;
+  padding: 1em;
+  padding-bottom: 10px;
+  /* margin: 0 -14px; */
+  font-size: 27px;
+}
+
+.hero-banner {
+  background-image: url('../images/02-hero-bg.jpg');
+  height: 400px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  height: 373px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-right: 146px;
+}
+
+.subtitle {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 6px;
+  padding-left: 6px;
+  background-color: #92ccce;
+  font-size: 40px;
+}
+
+
+/* Media Queries for Responsive Design */
+
+@media only screen and (max-width: 1122px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 0px;
+  }
+
+  .navbar h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 36px;
+    width: 100%;
+    font-size: 50px;
+  }
+
+  .nav-links {
+    padding-bottom: 2px;
+    margin-top: 10px;
+    display: flex;
+  }
+
+  .nav-links li {
+    padding-bottom: 13px;
+    padding-right: 0px;
+    margin-right: 8px;
+    border-bottom: 4px solid #92ccce;
+  }
+
+  .links {
+    font-size: 20px;
+    border-bottom: none;
+  }
+
+  .container {
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 584px) {
+/* Add more media queries as needed */
 }
