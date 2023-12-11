@@ -36,10 +36,11 @@ p {
 
 .nav-links {
   display: flex;
+  padding-right: 28px;
 }
 
 
-.links {
+.nav-links > li > a {
   align-items: center;
   margin-left: 10px;
   padding-bottom: 5px;
@@ -54,6 +55,7 @@ p {
 
 .hero-banner {
   background-image: url('../images/02-hero-bg.jpg');
+  
   height: 400px;
   width: 100%;
   margin-bottom: 25px;
@@ -79,46 +81,118 @@ p {
   font-size: 40px;
 }
 
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 43px;
+  margin-right: 159px;
+}
 
+.page-section {
+  display: flex;
+  margin-bottom: 20px; /* Add margin to create space between page sections */
+}
+
+.page-section h2 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 15%;
+  color:  #31343d;
+  padding-right: 20px;
+  margin: 0;
+  font-size: 24px;
+}
+
+.page-section .content {
+  width: 85%;
+  padding-left: 30px;
+  border-left: 3px solid #92ccce;
+  box-sizing: border-box; /* Include padding and border within the specified width */
+  padding-top: 5px;
+}
+
+.page-section .content > p {
+  margin: 0;
+}
+
+
+img {
+  border: 5px solid #92ccce;
+}
+
+.img-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 45px;
+  left:5px;
+  font-size: 20px;
+  background-color: #92ccce;
+  padding: 8px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Include padding and border within the specified width */
+}
+
+.header {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+.header-sub {
+  text-align: left;
+}
+
+
+
+
+/* test for grid  */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
 /* Media Queries for Responsive Design */
 
 @media only screen and (max-width: 1122px) {
   .navbar {
     flex-direction: column;
-    text-align: center;
     padding-top: 0px;
   }
 
   .navbar h1 {
-    padding: 0;
-    margin: 0;
-    font-size: 36px;
-    width: 100%;
-    font-size: 50px;
-  }
-
-  .nav-links {
-    padding-bottom: 2px;
-    margin-top: 10px;
+    padding: 0px;
     display: flex;
+    justify-content: center; /* Center the text vertically */
+    margin: 0;
+    font-size: 70px; /* Adjust the font size */
+    width: 100%;
   }
+  .nav-links > li {
+    text-decoration: none;
 
-  .nav-links li {
-    padding-bottom: 13px;
-    padding-right: 0px;
-    margin-right: 8px;
-    border-bottom: 4px solid #92ccce;
   }
-
-  .links {
-    font-size: 20px;
-    border-bottom: none;
+  .nav-links > li > a {
+    text-decoration: none;
+    display: flex;
+    font-size: 20px; /* Adjust the font size */
   }
-
-  .container {
-    padding-right: 20px;
-  }
+  
 }
+
 
 @media only screen and (max-width: 584px) {
 /* Add more media queries as needed */
