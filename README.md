@@ -13,7 +13,6 @@ This shows you a brief description about myself and what i do in respect to bein
 - [Description](#description)
 - [Features](#features)
 - [User Acceptance Criteria](#user-acceptance)
-- [Installation](#installation)
 - [Usage](#usage)
 - [File Structure](#file-structure)
 - [Technologies Used](#technologies-used)
@@ -37,10 +36,42 @@ I have created this project to showcase my programming skills using HTML and CSS
 
 This project is Responsive, set up using Grid and Flex to see how both would work.
 
-## Installation
+## Screenshots
 
-Provide step-by-step instructions on how to install your project. Include any dependencies that need to be installed.
+All the screenshots below show the portfolio working on different screen sizes and widths.
 
-```bash
-# Example installation command
-npm install
+### Desktop screens
+![Screenshot](challenge\starter\images\screenshots\portfolio-1.png)
+![Screenshot](challenge\starter\images\screenshots\portfolio-2.png)
+
+### Responsive screens
+![Screenshot](challenge\starter\images\screenshots\portfolio-3.png)
+![Screenshot](challenge\starter\images\screenshots\portfolio-4.png)
+
+### Large 4k screens
+![Screenshot](challenge\starter\images\screenshots\portfolio-4.png)
+![Screenshot](challenge\starter\images\screenshots\portfolio-5.png)
+
+### Laptop Large screens
+![Screenshot](challenge\starter\images\screenshots\portfolio-6.png)
+![Screenshot](challenge\starter\images\screenshots\portfolio-7.png)
+
+### Laptop screens
+![Screenshot](challenge\starter\images\screenshots\portfolio-8.png)
+![Screenshot](challenge\starter\images\screenshots\portfolio-9.png)
+
+### Tablet screens
+![Screenshot](challenge\starter\images\screenshots\portfolio-10.png)
+![Screenshot](challenge\starter\images\screenshots\portfolio-11.png)
+
+### Mobile Large screens
+![Screenshot](challenge\starter\images\screenshots\portfolio-12.png)
+![Screenshot](challenge\starter\images\screenshots\portfolio-13.png)
+
+### Mobile Medium screens
+![Screenshot](challenge\starter\images\screenshots\portfolio-14.png)
+![Screenshot](challenge\starter\images\screenshots\portfolio-15.png)
+
+### Mobile Small screens
+![Screenshot](challenge\starter\images\screenshots\portfolio-16.png)
+![Screenshot](challenge\starter\images\screenshots\portfolio-17.png)
