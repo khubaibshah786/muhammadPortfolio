@@ -220,6 +220,9 @@ p {
     display: flex;
     font-size: 20px; /* Adjust the font size */
   }
+  .grid-container-image {
+
+    grid-template-columns: none;
 }
 
 @media only screen and (max-width: 584px) {
