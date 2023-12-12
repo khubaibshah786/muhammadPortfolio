@@ -1,3 +1,4 @@
+/* Global styling */
 * {
   box-sizing: border-box;
 }
@@ -9,7 +10,12 @@ body {
   line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -17,6 +23,7 @@ p {
   margin: 0;
 }
 
+/* Navbar styling */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -27,6 +34,7 @@ p {
   padding-bottom: 10px;
 }
 
+/* Navbar header styling */
 .navbar h1 {
   background-color: #92ccce;
   padding-left: 70px;
@@ -34,12 +42,15 @@ p {
   font-size: 48px;
 }
 
+/* Navbar navigation styling */
 .nav-links {
   display: flex;
   padding-right: 28px;
 }
 
-.nav-links > li > a {
+
+/* Navbar navigation styling */
+.nav-links>li>a {
   align-items: center;
   margin-left: 10px;
   padding-bottom: 5px;
@@ -51,6 +62,7 @@ p {
   font-size: 27px;
 }
 
+/* Hero banner styling for image */
 .hero-banner {
   background-image: url('../images/header-background.jpg');
   height: 400px;
@@ -60,45 +72,63 @@ p {
   background-position: center;
 }
 
-
-.subtitle {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 6px;
-  padding-left: 6px;
-  background-color: #92ccce;
-  font-size: 40px;
+/* Container styling for image and text centered*/
+.container {
+  height: 373px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-right: 146px;
 }
 
+/* Centered text styling */
+.centered {
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+/* Centered h1 styling */
+.centered-h1 {
+  font-size: 50px;
+  color: #92ccce;
+}
+
+/* Main page section styling */
 .page-wrapper {
   display: flex;
   flex-direction: column;
   margin: 43px;
-  margin-right:10vh;
+  margin-right: 10vh;
 }
 
+/* Each page section styling */
 .page-section {
   display: grid;
   grid-template-columns: 15% 85%;
-  grid-template-rows: auto; /* Set rows to auto to allow content to grow */
+  grid-template-rows: auto;
+  /* Set rows to auto to allow content to grow */
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 30% 70%;
-}
-
+/* Page section grid item header styling */
 .grid-item-header {
   border-right: 4px solid #92ccce;
   padding-top: 0;
 }
 
+/* Page section grid styling */
 .grid-item-content {
   padding-left: 25px;
   padding-top: 7px;
   font-size: larger;
 }
 
+
+/* Page section grid item header h2 styling */
 .grid-item-header h2 {
   color: #31343d;
   padding-right: 20px;
@@ -106,26 +136,32 @@ p {
   text-align: right;
 }
 
+/* Image container styling for work section for first image*/
 .img-container {
   position: relative;
 }
 
+/* Image styling for work section for first image*/
 .img-container img {
-  width: 100%; /* Make images fill their container */
+  width: 100%;
   height: 600px;
-  margin: 0; /* Add this line to remove default margin */
-  border: 6px solid #92ccce; /* Add a border to the .img-container */
+  margin: 0;
+  border: 6px solid #92ccce;
 }
 
+/* Image container link styling work section for first image*/
 .img-container a {
   display: block;
   position: relative;
   overflow: hidden;
 }
 
+/* Image hover effect for first image*/
 .img-container a:hover img {
   filter: brightness(80%);
 }
+
+/* Bottom left corner styling for text of all images */
 .bottom-left {
   position: absolute;
   bottom: 21px;
@@ -135,6 +171,7 @@ p {
   box-sizing: border-box;
 }
 
+/* Grid container for images styling for 4 grid images */
 .grid-container-image {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -143,63 +180,60 @@ p {
   margin-top: 20px;
 }
 
+/* Grid item for images styling for 4 grid images */
 .grid-item-images {
   position: relative;
   overflow: hidden;
 }
 
+/* Image styling within the grid item for 4 grid images */
 .grid-item-images img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border: 6px solid #92ccce; /* Add a border to the images */
+  border: 6px solid #92ccce;
 }
-/* Add this CSS to change tint on hover */
+
 .grid-item-images a {
   position: relative;
   overflow: hidden;
 }
 
+/* Hover effect on image within the grid item for 4 grid images */
 .grid-item-images a:hover img {
   filter: brightness(80%);
 }
 
-/* Add this CSS for the grid layout */
+/* Grid container for contact information styling */
 .grid-container-contact {
   display: grid;
-  grid-template-columns: repeat(5, auto); /* 1 column */
-  grid-template-rows: 100%; /* 5 rows */
-  grid-gap: 10px; /* Adjust the value to control the space between rows */
+  grid-template-columns: repeat(5, auto);
+  /* 5 columns repeat */
+  grid-template-rows: 100%;
+  /* 1 row*/
+  grid-gap: 10px;
+  /* controlling the space between rows */
 }
 
+/* Grid item for contact information styling */
 .grid-item-contact {
   padding-top: 45px;
   text-align: center;
   padding-bottom: 40px;
-
 }
+
+/* Contact link styling */
 .grid-item-contact a {
   text-decoration: none;
   font-size: 25px;
-  border-bottom: 4px solid  #31343d;
+  border-bottom: 4px solid #31343d;
   padding: 8px;
-
 }
 
-.centered {
-  position: absolute;
-  top: 27%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: white;
-}
-.centered-h1 {
-  font-size: 50px;
-  color: #92ccce;
-}
+
 /* Media Queries for Responsive Design */
 
+/* Large screens (max-width: 1024px) */
 @media only screen and (max-width: 1024px) {
   .navbar {
     flex-direction: column;
@@ -209,29 +243,31 @@ p {
   .navbar h1 {
     padding: 0px;
     display: flex;
-    justify-content: center; /* Center the text vertically */
+    justify-content: center;
+    /* Center the text vertically */
     margin: 0;
-    font-size: 70px; /* Adjust the font size */
+    font-size: 70px;
+    /* Font size adjusted for Large screens */
     width: 100%;
     margin-top: 0;
     margin-bottom: 0;
-  
-  }
-  .nav-links  {
-      margin: 0;
   }
 
-  .nav-links > li {
+  .nav-links {
+    margin: 0;
+  }
+
+  .nav-links>li {
     text-decoration: none;
-
   }
 
-  
-  .nav-links > li > a {
+  .nav-links>li>a {
     text-decoration: none;
     display: flex;
-    font-size: 26px; /* Adjust the font size */
+    font-size: 26px;
+    /* Adjust the font size */
   }
+
   .centered {
     position: absolute;
     top: 42%;
@@ -240,23 +276,27 @@ p {
     text-align: center;
     color: white;
   }
+
   .grid-container-image {
     grid-template-columns: none;
     grid-template-rows: repeat(4, 230px);
   }
 
   .page-wrapper {
-    margin-right:  40px;
+    margin-right: 40px;
   }
+
   .page-section {
-    grid-template-columns: 1fr; /* Set to a single column */
+    grid-template-columns: 1fr;
+    /* Set to a single column */
   }
+
   .grid-container-contact {
     grid-template-columns: 0;
     grid-gap: 34px;
     grid-template-rows: 16px auto 29px;
-
   }
+
   .grid-item-content {
     padding-left: 0;
     padding-top: 15px;
@@ -264,118 +304,155 @@ p {
 
   .grid-item-header {
     padding: 0;
-    grid-column: 1; /* Header spans the full width */
+    grid-column: 1;
+    /* Header spans the full width */
     border-right: none;
-    border-bottom: 4px solid  #31343d;
+    border-bottom: 4px solid #31343d;
   }
 
   .grid-item-header h2 {
-    text-align: left; /* Adjust text alignment */
+    text-align: left;
+    /* Adjust text alignment */
     padding-right: 0;
     width: auto;
     font-size: 50px;
-    color:  #31343d;
+    color: #31343d;
   }
+
   .grid-item-contact a {
-    color:  #31343d;
+    color: #31343d;
     font-size: 16px;
   }
+
   .grid-item-contact {
     padding: 0;
   }
+
   .centered-h1 {
     font-size: 32px;
+  }
 }
-}
+
+/* Larger screens (max-width: 1440px) */
 @media only screen and (max-width: 1440px) {
+
+  /* Centered text in hero image styling for different screen size */
   .centered {
     position: absolute;
     top: 30%;
     left: 50%;
   }
 }
-@media only screen and (max-width: 1024px) {
-  .centered {
-    position: absolute;
-    top: 42%;
-    left: 50%;
-  }
-}
+
+/* Medium screens (max-width: 768px) */
 @media only screen and (max-width: 768px) {
-  /* Add more media queries as needed */
+
+  /* Centered text in hero image styling for Medium screen size */
   .centered {
     position: absolute;
-    left:50%;
+    left: 50%;
     top: 42%;
     width: 64%;
   }
+
+  /* Font size for hero image text updated */
   .centered-h1 {
     font-size: 32px;
+  }
+
+  /* Hero image height increased for center text */
+  .hero-banner {
+    height: 484px;
+  }
+
+  /* remove bullet points and add padding to links */
+  .nav-links {
+    list-style-type: none;
+    padding-right: 49px;
+  }
+
+  /* update padding on herf links and update font size */
+  .nav-links>li>a {
+    font-size: 34px;
+    padding-top: 12px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
-.hero-banner {
-  height: 484px;
-}
-.nav-links {
-  list-style-type: none;
-  padding-right: 49px;
-  
-}
-.nav-links > li > a {
-  font-size: 34px;
-  padding-top: 12px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-}
-}
+
+/* Smaller screens (max-width: 425px) */
 @media only screen and (max-width: 425px) {
-  /* Add more media queries as needed */
+
+  /* Centered text in hero image styling for Smaller screen size */
   .centered {
     position: absolute;
-    left:50%;
+    left: 50%;
     top: 41%;
   }
-  .nav-links > li > a {
-    font-size: 19px;
 
+  /* update font size */
+  .nav-links>li>a {
+    font-size: 19px;
   }
 }
+
+/* Even smaller screens (max-width: 375px) */
 @media only screen and (max-width: 375px) {
-  /* Add more media queries as needed */
+
+  /* Centered text in hero image styling for even smaller screens */
   .centered {
     position: absolute;
-    left:50%;
+    left: 50%;
     top: 45%;
   }
-  .nav-links > li > a {
+
+  /* update font size for smaller screens */
+  .nav-links>li>a {
     font-size: 16px;
+  }
 }
-}
+
+/* Extra small screens (max-width: 320px) */
 @media only screen and (max-width: 320px) {
-  /* Add more media queries as needed */
+
+  /* Centered text in hero image styling for even smaller screens */
   .centered {
     position: absolute;
-    left:50%;
+    left: 50%;
     top: 43%;
     width: 87%;
   }
+
+  /* remove bullet points and add padding to links */
   .nav-links {
     list-style-type: none;
     padding-right: 0;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 0;
-}
-  .nav-links > li > a {
+  }
+
+  /* update font size for smaller screens */
+  .nav-links>li>a {
     font-size: 16px;
-}
-.navbar h1 {
-  font-size: 58px;
-}
-.page-section {
-  display:contents;
-}
-.grid-item-header h2 {
-  font-size: 41px;
-}
+  }
+
+  /* change size of main header above navigation for extra small screens so its not overlapping */
+  .navbar h1 {
+    font-size: 58px;
+  }
+
+  /* 
+  update the display setting to allow sections to sit in the middle of the screen on extra
+  small devices
+   */
+  .page-section {
+    display: contents;
+  }
+
+  /* update font size for headers on each section so it does not overlap */
+  .grid-item-header h2 {
+    font-size: 41px;
+  }
 }
