@@ -230,6 +230,16 @@ p {
   padding: 8px;
 }
 
+/* Larger screens (max-width: 1440px) */
+@media only screen and (max-width: 1440px) {
+
+  /* Centered text in hero image styling for different screen size */
+  .centered {
+    position: absolute;
+    top: 31%;
+    left: 50%;
+  }
+}
 
 /* Media Queries for Responsive Design */
 
@@ -270,7 +280,7 @@ p {
 
   .centered {
     position: absolute;
-    top: 42%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -333,16 +343,7 @@ p {
   }
 }
 
-/* Larger screens (max-width: 1440px) */
-@media only screen and (max-width: 1440px) {
 
-  /* Centered text in hero image styling for different screen size */
-  .centered {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-  }
-}
 
 /* Medium screens (max-width: 768px) */
 @media only screen and (max-width: 768px) {
@@ -351,8 +352,8 @@ p {
   .centered {
     position: absolute;
     left: 50%;
-    top: 42%;
-    width: 64%;
+    top: 46%;
+    /* width: 64%; */
   }
 
   /* Font size for hero image text updated */
@@ -388,7 +389,8 @@ p {
   .centered {
     position: absolute;
     left: 50%;
-    top: 41%;
+    top: 47%;
+    width: 305px;
   }
 
   /* update font size */
@@ -421,7 +423,7 @@ p {
     position: absolute;
     left: 50%;
     top: 43%;
-    width: 87%;
+    width: 102%;
   }
 
   /* remove bullet points and add padding to links */
