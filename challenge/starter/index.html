@@ -15,10 +15,10 @@
     <h1>Lernantino</h1>
     <nav>
       <ul class="nav-links">
-      <li><a href="#aboutme">About Me</a></li>
-      <li><a href=#>Work</a></li>
-      <li><a href=#>Contact Me</a></li>
-      <li><a href=#>Resume</a></li>
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a href=#>Work</a></li>
+        <li><a href=#>Contact Me</a></li>
+        <li><a href=#>Resume</a></li>
       </ul>
     </nav>
   </header>
@@ -33,56 +33,95 @@
   <main class="page-wrapper">
     <!-- about me -->
     <section class="page-section" id="about">
-      <h2>About Me</h2>
-      <div class="content">Lorem ipsum dolor sit amet, 
-        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-         Lorem ipsum dolor sit amet, 
-         consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          Lorem ipsum dolor sit amet, 
-          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-           Lorem ipsum dolor sit amet, 
-           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+      <div class="grid-item-header">
+        <h2>About me</h2>
+      </div>
+      <div class="grid-item-content">Content</div>
     </section>
-
+    <br>
     <!-- portfolio container -->
     <section class="page-section" id="work">
-      <h2>Work</h2>
-      <div class="content">
+      <div class="grid-item-header">
+        <h2>Work</h2>
+      </div>
+      <div class="grid-item-content">
+        <!-- First image -->
         <div class="img-container">
-          <img src="./images/02-portfolio-1.jpg" alt="Snow" height="40%">
+          <a href="#work-image-1">
+            <img src="./images/02-portfolio-1.jpg" alt="Surf Report">
+          </a>
           <div class="bottom-left">
-            <div class="header"> 
-            Surf Report
+            <h2>Surf Report</h2>
+            Mern Stack
           </div>
-          <div class="header-sub">
-            MERN Stack
+        </div>
+        <!-- Remaining images in the grid container -->
+        <div class="grid-container-image">
+          <!-- Image 1 -->
+          <div class="grid-item-images">
+            <a href="#work-image-1">
+              <img src="./images/02-portfolio-1.jpg" alt="Image 1">
+            </a>
+            <div class="bottom-left">
+              <h2>LED Wall</h2>Node/IoT
+            </div>
           </div>
-          
+          <!-- Image 2 -->
+          <div class="grid-item-images">
+            <a href="#work-image-2">
+              <img src="./images/02-portfolio-2.jpg" alt="Image 2">
+            </a>
+            <div class="bottom-left">
+              <h2>Calculator</h2>React/Javascript/Css
+            </div>
+          </div>
+          <!-- Image 3 -->
+          <div class="grid-item-images">
+            <a href="#work-image-3">
+              <img src="./images/02-portfolio-3.jpg" alt="Image 3">
+            </a>
+            <div class="bottom-left">
+              <h2>Pastel Puzzels</h2>MERN Stack
+            </div>
+          </div>
+
+          <!-- Image 4 -->
+          <div class="grid-item-images">
+            <a href="#work-image-4">
+
+              <img src="./images/02-run-buddy.jpg" alt="Image 4">
+            </a>
+            <div class="bottom-left">
+              <h2>Run Buddy</h2>HTML/CSS
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
+    <br>
     <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
-      <div class="content">"Lorem ipsum dolor sit amet, 
-        consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+    <!-- testing for commit change -->
+    <section class="page-section" id="contact">
+      <div class="grid-item-header">
+        <h2>Contact Me</h2>
+      </div>
+      <div class="grid-item-content">
+        <div class="grid-container-contact">
+          <!-- Row 1 -->
+          <div class="grid-item-contact">
+            <a href="#aboutme">555.555.555.555</a>
+          </div>
+          <!-- -contact 2 -->
+          <div class="grid-item-contact"><a href="#aboutme">0787619922943</a></div>
+          <!-- -contact 3 -->
+          <div class="grid-item-contact"><a href="#aboutme">About Me</a></div>
+          <!-- -contact 4 -->
+          <div class="grid-item-contact"><a href="#aboutme">About Me</a></div>
+          <!-- -contact 5 -->
+          <div class="grid-item-contact"><a href="#aboutme">About Me</a></div>
+        </div>
+      </div>
     </section>
   </main>
 </body>

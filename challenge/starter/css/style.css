@@ -39,7 +39,6 @@ p {
   padding-right: 28px;
 }
 
-
 .nav-links > li > a {
   align-items: center;
   margin-left: 10px;
@@ -49,13 +48,11 @@ p {
   border-bottom: 4px solid #92ccce;
   padding: 1em;
   padding-bottom: 10px;
-  /* margin: 0 -14px; */
   font-size: 27px;
 }
 
 .hero-banner {
   background-image: url('../images/02-hero-bg.jpg');
-  
   height: 400px;
   width: 100%;
   margin-bottom: 25px;
@@ -85,86 +82,118 @@ p {
   display: flex;
   flex-direction: column;
   margin: 43px;
-  margin-right: 159px;
+  margin-right:10vh;
 }
 
 .page-section {
-  display: flex;
-  margin-bottom: 20px; /* Add margin to create space between page sections */
+  display: grid;
+  grid-template-columns: 10% 90%;
+  grid-template-rows: auto; /* Set rows to auto to allow content to grow */
+  grid-row-gap: 20px; /* Adjust the value to control the space between rows */
 }
 
-.page-section h2 {
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: flex-end;
-  align-items: flex-end;
-  width: 15%;
-  color:  #31343d;
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.grid-item-header {
+  padding: 10px;
+  border-right: 4px solid #92ccce;
+  padding-top: 0;
+}
+
+.grid-item-content {
+  padding-left: 25px;
+  padding-top: 7px;
+}
+
+.grid-item-header h2 {
+  color: #31343d;
   padding-right: 20px;
-  margin: 0;
-  font-size: 24px;
-}
-
-.page-section .content {
-  width: 85%;
-  padding-left: 30px;
-  border-left: 3px solid #92ccce;
-  box-sizing: border-box; /* Include padding and border within the specified width */
-  padding-top: 5px;
-}
-
-.page-section .content > p {
-  margin: 0;
-}
-
-
-img {
-  border: 5px solid #92ccce;
+  width: 118px;
+  font-size: 29px;
+  text-align: right;
 }
 
 .img-container {
   position: relative;
-  text-align: center;
-  color: white;
-  width: 100%;
 }
 
+.img-container img {
+  width: 100%; /* Make images fill their container */
+  height: 600px;
+  margin: 0; /* Add this line to remove default margin */
+  border: 6px solid #92ccce; /* Add a border to the .img-container */
+}
+
+.img-container a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-container a:hover img {
+  filter: brightness(80%);
+}
 .bottom-left {
   position: absolute;
-  bottom: 45px;
-  left:5px;
+  bottom: 21px;
   font-size: 20px;
   background-color: #92ccce;
-  padding: 8px; /* Adjust padding as needed */
-  box-sizing: border-box; /* Include padding and border within the specified width */
+  padding: 8px;
+  box-sizing: border-box;
 }
 
-.header {
-  font-size: 30px;
-  color: black;
-  font-weight: bold;
-}
-.header-sub {
-  text-align: left;
-}
-
-
-
-
-/* test for grid  */
-.grid-container {
+.grid-container-image {
   display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: #2196F3;
-  padding: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 250px);
+  grid-gap: 20px;
+  margin-top: 20px;
 }
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
+
+.grid-item-images {
+  position: relative;
+  overflow: hidden;
+}
+
+.grid-item-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 6px solid #92ccce; /* Add a border to the images */
+}
+/* Add this CSS to change tint on hover */
+.grid-item-images a {
+  position: relative;
+  overflow: hidden;
+}
+
+.grid-item-images a:hover img {
+  filter: brightness(80%);
+}
+
+/* Add this CSS for the grid layout */
+.grid-container-contact {
+  display: grid;
+  grid-template-columns: repeat(5, auto); /* 1 column */
+  grid-template-rows: 100%; /* 5 rows */
+  grid-gap: 10px; /* Adjust the value to control the space between rows */
+}
+
+.grid-item-contact {
+  padding-top: 45px;
   text-align: center;
+  padding-bottom: 40px;
+
 }
+.grid-item-contact a {
+  text-decoration: none;
+  font-size: 25px;
+  border-bottom: 4px solid  #31343d;
+}
+
 /* Media Queries for Responsive Design */
 
 @media only screen and (max-width: 1122px) {
@@ -181,19 +210,18 @@ img {
     font-size: 70px; /* Adjust the font size */
     width: 100%;
   }
+
   .nav-links > li {
     text-decoration: none;
-
   }
+
   .nav-links > li > a {
     text-decoration: none;
     display: flex;
     font-size: 20px; /* Adjust the font size */
   }
-  
 }
 
-
 @media only screen and (max-width: 584px) {
-/* Add more media queries as needed */
+  /* Add more media queries as needed */
 }
