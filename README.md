@@ -41,37 +41,37 @@ This project is Responsive, set up using Grid and Flex to see how both would wor
 All the screenshots below show the portfolio working on different screen sizes and widths.
 
 ### Desktop screens
-![Screenshot](challenge\starter\images\screenshots\portfolio-1.png)
-![Screenshot](challenge\starter\images\screenshots\portfolio-2.png)
+ ![alt text](./challenge/starter/images/screenshots/portfolio-1.png)
+ ![alt text](./challenge/starter/images/screenshots/portfolio-2.png)
 
 ### Responsive screens
-![Screenshot](challenge\starter\images\screenshots\portfolio-3.png)
-![Screenshot](challenge\starter\images\screenshots\portfolio-4.png)
+ ![alt text](./challenge/starter/images/screenshots/portfolio-3.png)
+ ![alt text](./challenge/starter/images/screenshots/portfolio-4.png)
 
 ### Large 4k screens
-![Screenshot](challenge\starter\images\screenshots\portfolio-4.png)
-![Screenshot](challenge\starter\images\screenshots\portfolio-5.png)
+ ![alt text](./challenge/starter/images/screenshots/portfolio-4.png)
+ ![alt text](./challenge/starter/images/screenshots/portfolio-5.png)
 
 ### Laptop Large screens
-![Screenshot](challenge\starter\images\screenshots\portfolio-6.png)
-![Screenshot](challenge\starter\images\screenshots\portfolio-7.png)
+ ![alt text](./challenge/starter/images/screenshots/portfolio-6.png)
+ ![alt text](./challenge/starter/images/screenshots/portfolio-7.png)
 
 ### Laptop screens
-![Screenshot](challenge\starter\images\screenshots\portfolio-8.png)
-![Screenshot](challenge\starter\images\screenshots\portfolio-9.png)
+ ![alt text](./challenge/starter/images/screenshots/portfolio-8.png)
+ ![alt text](./challenge/starter/images/screenshots/portfolio-9.png)
 
 ### Tablet screens
-![Screenshot](challenge\starter\images\screenshots\portfolio-10.png)
-![Screenshot](challenge\starter\images\screenshots\portfolio-11.png)
+ ![alt text](./challenge/starter/images/screenshots/portfolio-10.png)
+ ![alt text](./challenge/starter/images/screenshots/portfolio-11.png)
 
 ### Mobile Large screens
-![Screenshot](challenge\starter\images\screenshots\portfolio-12.png)
-![Screenshot](challenge\starter\images\screenshots\portfolio-13.png)
+ ![alt text](./challenge/starter/images/screenshots/portfolio-12.png)
+ ![alt text](./challenge/starter/images/screenshots/portfolio-13.png)
 
 ### Mobile Medium screens
-![Screenshot](challenge\starter\images\screenshots\portfolio-14.png)
-![Screenshot](challenge\starter\images\screenshots\portfolio-15.png)
+ ![alt text](./challenge/starter/images/screenshots/portfolio-14.png)
+ ![alt text](./challenge/starter/images/screenshots/portfolio-15.png)
 
 ### Mobile Small screens
-![Screenshot](challenge\starter\images\screenshots\portfolio-16.png)
-![Screenshot](challenge\starter\images\screenshots\portfolio-17.png)
+ ![alt text](./challenge/starter/images/screenshots/portfolio-16.png)
+ ![alt text](./challenge/starter/images/screenshots/portfolio-17.png)
